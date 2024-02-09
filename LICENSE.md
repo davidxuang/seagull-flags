@@ -1,5 +1,6 @@
 ## License for the Code
 
+Copyright 2024, davidxuang
 Copyright 2016-2018, Mozilla Foundation
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +19,7 @@ limitations under the License.
 
 ## License for the Visual Design
 
-The Emoji art in the twe-svg.zip archive comes from [Twemoji](https://twitter.github.io/twemoji),
+The original version of Emoji art comes from [Twemoji](https://twitter.github.io/twemoji),
 and is used and redistributed under the CC-BY-4.0 [license terms](https://github.com/twitter/twemoji#license)
 offered by the Twemoji project.
 

@@ -1,10 +1,11 @@
 {
-  "name": "twemoji-colr",
-  "description": "Twemoji font in COLR/CPAL layered format.",
-  "version": "0.7.0",
+  "name": "seagull-flags",
+  "description": "An emoji flag font in COLR/CPAL layered format.",
+  "version": "0.7.1",
   "license": "Apache-2.0",
-  "author": "Jonathan Kew <jfkthame@gmail.com>",
+  "author": "Dawei Huang <davidxuang@live.com>",
   "contributors": [
+    "Jonathan Kew <jfkthame@gmail.com>",
     "Tim Guan-tin Chien <timdream@gmail.com>",
     "Essem <smswessem@gmail.com>",
     "Gregory <https://github.com/GrSto>",
@@ -12,37 +13,50 @@
     "Lim Chunwei <https://github.com/win98se>"
   ],
   "bugs": {
-    "url": "https://github.com/mozilla/twemoji-colr/issues"
+    "url": "https://github.com/davidxuang/seagull/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla/twemoji-colr.git"
+    "url": "git+https://github.com/davidxuang/seagull.git"
   },
   "dependencies": {
-    "grunt": "^1.4.1",
-    "grunt-cli": "^1.4.3",
-    "grunt-webfonts": "^4.0.2",
-    "load-grunt-tasks": "^5.1.0",
-    "rmdir": "^1.2.0",
-    "unzip": "^0.1.11",
-    "xml2js": "^0.4.23",
-    "xmlbuilder": "^15.1.1"
+    "canvas": "^2.0.0",
+    "color-string": "^1.0.0",
+    "grunt": "^1.0.0",
+    "grunt-cli": "^1.0.0",
+    "grunt-webfonts": "^4.0.0",
+    "load-grunt-tasks": "^5.0.0",
+    "paper": "^0.12.0",
+    "paper-jsdom": "^0.12.0",
+    "xml2js": "^0.6.0",
+    "xmlbuilder": "^15.0.0"
   },
   "keywords": [
     "emoji",
     "colr",
+    "segoe",
     "twemoji",
     "unicode"
   ],
   "homepage": "https://github.com/mozilla/twemoji-colr#readme",
   "devDependencies": {
-    "emojibase-data": "^7.0.1",
-    "resemblejs": "^4.1.0"
+    "@types/color-string": "^1.0.0",
+    "@types/jsdom": "^20.0.0",
+    "@types/xml2js": "^0.4.0",
+    "emojibase-data": "^7.0.0",
+    "eslint": "^8.21.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
   },
   "scripts": {
     "grunt": "grunt"
   },
-  "resolutions": {
+  "overrides": {
     "graceful-fs": "^4.2.9"
+  },
+  "pnpm": {
+    "overrides": {
+      "graceful-fs": "^4.2.9"
+    }
   }
 }

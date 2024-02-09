@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <polygon fill="#f4f4f4" points="6,11 29,11 30,12 30,13 29,14 6,14" />
+  <polygon fill="#f4f4f4" points="6,21 29,21 30,20 30,19 29,18 6,18" />
+  <polygon fill="#1c1c1c" points="2,6 30,6 30,12 6,12" />
+  <rect fill="#DB1036" x="6" y="13" width="24" height="6" />
+  <polygon fill="#008E48" points="2,26 30,26 30,20 6,20" />
+  <polygon fill="#1345B7" points="2,6 16,16 2,26" />
+  <path d="M8.222,16L9.589,14.119L7.378,14.837L6.011,12.957L6.011,15.282L3.8,16L6.011,16.719L6.011,19.043L7.378,17.163L9.589,17.881L8.222,16Z" fill="#FCD53F" />
+</svg>
