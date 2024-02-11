@@ -1,7 +1,7 @@
 {
   "name": "seagull-flags",
   "description": "An emoji flag font in COLR/CPAL layered format.",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "license": "Apache-2.0",
   "author": "Dawei Huang <davidxuang@live.com>",
   "contributors": [
@@ -20,7 +20,6 @@
     "url": "git+https://github.com/davidxuang/seagull.git"
   },
   "dependencies": {
-    "canvas": "^2.0.0",
     "color-string": "^1.0.0",
     "grunt": "^1.0.0",
     "grunt-cli": "^1.0.0",

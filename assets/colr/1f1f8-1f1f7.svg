@@ -1,8 +1,8 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <polygon fill="#f4f4f4" points="2,10.5 3,9.5 29,9.5 30,10.5 30,12.75 29,13.75 3,13.75 2,12.75" />
   <polygon fill="#f4f4f4" points="2,21.5 3,22.5 29,22.5 30,21.5 30,19.25 29,18.25 3,18.25 2,19.25" />
-  <rect fill="#008E48" x="2" y="6" width="28" height="4.5" />
+  <rect fill="#028f4d" x="2" y="6" width="28" height="4.5" />
   <rect fill="#CF0828" x="2" y="12.75" width="28" height="6.5" />
-  <rect fill="#008E48" x="2" y="21.5" width="28" height="4.5" />
+  <rect fill="#028f4d" x="2" y="21.5" width="28" height="4.5" />
   <path d="M14.014,19.057L16,17.614L17.986,19.057L17.228,16.722L19.214,15.278L16.759,15.278L16,12.943L15.241,15.278L12.786,15.278L14.772,16.722L14.014,19.057Z" fill="#FCD53F" />
 </svg>

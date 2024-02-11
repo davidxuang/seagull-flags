@@ -9,8 +9,8 @@ module.exports = function (grunt) {
   grunt.initConfig({
     webfont: {
       seagull: {
-        src: 'bin/glyphs/*.svg',
-        dest: 'bin/raw',
+        src: 'obj/glyphs/*.svg',
+        dest: 'obj/raw',
         options: {
           font: 'Seagull Flags',
           engine: 'fontforge',
@@ -20,7 +20,7 @@ module.exports = function (grunt) {
           descent: 409,
           execMaxBuffer: 1024 * 1024,
           version: packageJSON.version,
-          codepointsFile: 'bin/codepoints.json',
+          codepointsFile: 'obj/codepoints.json',
         },
       },
     },
