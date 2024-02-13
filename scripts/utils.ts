@@ -23,25 +23,25 @@ const absolute = function (elem: Drawable, width: number, height: number) {
     case 'polyline':
       return elem;
     case 'circle':
-      _absolute(elem.$, 'r', width);
+      _absolute(elem.$, 'r', Math.sqrt(width * width + height * height));
     case 'ellipse':
       _absolute(elem.$, 'cx', width);
-      _absolute(elem.$, 'cy', width);
+      _absolute(elem.$, 'cy', height);
       if (elem['#name'] == 'circle') return;
     case 'rect':
       _absolute(elem.$, 'rx', width);
-      _absolute(elem.$, 'ry', width);
+      _absolute(elem.$, 'ry', height);
       if (elem['#name'] == 'ellipse') return;
       _absolute(elem.$, 'x', width);
-      _absolute(elem.$, 'y', width);
+      _absolute(elem.$, 'y', height);
       _absolute(elem.$, 'width', width);
-      _absolute(elem.$, 'height', width);
+      _absolute(elem.$, 'height', height);
       return;
     case 'line':
       _absolute(elem.$, 'x1', width);
-      _absolute(elem.$, 'y1', width);
+      _absolute(elem.$, 'y1', height);
       _absolute(elem.$, 'x2', width);
-      _absolute(elem.$, 'y2', width);
+      _absolute(elem.$, 'y2', height);
       return;
   }
 };
